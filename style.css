@@ -1,67 +1,78 @@
+/* Reset default margin and padding */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Setting copper background and default text color */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background: linear-gradient(135deg, #8C7853, #000000, #FFFFFF);
-    color: #FFF;
+    background-color: #b87333; /* Copper background color */
+    color: #FFFFFF; /* Default text color */
 }
 
+/* Center-aligned header styling */
 header {
     position: relative;
     text-align: center;
     padding: 2em 0;
 }
 
+/* Position welcome text in the top-left corner */
 .welcome-text {
     position: absolute;
     top: 20px;
-    right: 20px;
+    left: 20px;
     font-size: 1.5em;
-    color: #FFD700;
+    color: #FFD700; /* Gold color for contrast */
 }
 
+/* Main title styling */
 .main-title {
     font-size: 2.5em;
-    color: #FFD700;
+    color: #FFF; /* White color for the main title */
     margin: 1em 0;
 }
 
+/* Padding for main content */
 main {
     padding: 2em;
 }
 
+/* Subheading styling */
 h2 {
-    color: #FFD700;
+    color: #FFD700; /* Gold color for subheadings */
     margin: 1.5em 0;
 }
 
+/* Remove bullet points and align items in lists */
 ul {
     list-style-type: none;
     padding: 0;
     text-align: left;
 }
 
+/* Margin for list items */
 li {
     margin: 0.5em 0;
 }
 
+/* Link color and hover effect */
 a {
-    color: #FFF;
+    color: #FFF; /* White color for links */
     text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Underline links on hover */
 }
 
+/* Footer styling */
 footer {
     background-color: rgba(0, 0, 0, 0.8);
-    color: #FFD700;
+    color: #FFD700; /* Gold color for footer text */
     text-align: center;
     padding: 1em;
 }
