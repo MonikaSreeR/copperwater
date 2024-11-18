@@ -50,6 +50,39 @@ h1 {
     font-style: italic;
 }
 
+/* Products Section */
+.products {
+    margin: 20px 0;
+    text-align: left;
+}
+
+.products h2 {
+    color: #4db8ff; /* Blue */
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.product-category {
+    margin-bottom: 15px;
+}
+
+.product-category h3 {
+    color: #c17b4e; /* Copper */
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.product-category ul {
+    list-style: none;
+    margin-left: 20px;
+    color: #333;
+}
+
+.product-category li {
+    margin: 5px 0;
+}
+
 /* Login Button */
 .login-btn {
     background-color: #4db8ff; /* Blue */
@@ -77,6 +110,7 @@ footer {
 footer a {
     color: #4db8ff; /* Blue */
     text-decoration: none;
+    font-weight: bold;
 }
 
 footer a:hover {
