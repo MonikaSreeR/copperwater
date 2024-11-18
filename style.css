@@ -1,77 +1,84 @@
-/* Reset default margin and padding */
+/* General Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Copper background and default text color */
+/* Body Styling */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #b87333; /* Copper background color */
-    color: #FFFFFF; /* Default text color */
-}
-
-/* Center-aligned header styling */
-header {
-    position: relative;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #e0f7ff, #ffffff);
+    color: #333;
     text-align: center;
-    padding: 2em 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-/* Position "Welcome!" text in the top-left corner */
-.welcome-text {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    font-size: 1.5em;
-    color: #FFD700; /* Gold color for contrast */
+/* Container */
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Main title styling */
-.main-title {
-    font-size: 2.5em;
-    color: #FFF; /* White color for the main title */
-    margin: 1em 0;
+/* Header Styling */
+header {
+    margin-bottom: 20px;
 }
 
-/* Padding for main content */
-main {
-    padding: 2em;
+.logo {
+    width: 100px;
+    margin-bottom: 15px;
 }
 
-/* Subheading styling */
-h2 {
-    color: #FFD700; /* Gold color for subheadings */
-    margin: 1.5em 0;
+h1 {
+    color: #c17b4e; /* Copper color */
+    font-size: 2.5rem;
+    margin-bottom: 10px;
 }
 
-/* Remove bullet points and align items in lists */
-ul {
-    list-style-type: none;
-    padding: 0;
-    text-align: left;
+.caption {
+    color: #4db8ff; /* Light Blue */
+    font-size: 1.2rem;
+    font-style: italic;
 }
 
-li {
-    margin: 0.5em 0;
+/* Login Button */
+.login-btn {
+    background-color: #4db8ff; /* Blue */
+    color: white;
+    padding: 15px 30px;
+    border: 2px solid #c17b4e; /* Copper */
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
-/* Link color and hover effect */
-a {
-    color: #FFF; /* White color for links */
+.login-btn:hover {
+    background-color: #c17b4e; /* Copper */
+    color: white;
+    border: 2px solid #4db8ff; /* Blue */
+}
+
+/* Footer Styling */
+footer {
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #4db8ff; /* Blue */
     text-decoration: none;
 }
 
-a:hover {
-    text-decoration: underline; /* Underline links on hover */
-}
-
-/* Footer styling */
-footer {
-    background-color: rgba(0, 0, 0, 0.8);
-    color: #FFD700; /* Gold color for footer text */
-    text-align: center;
-    padding: 1em;
+footer a:hover {
+    text-decoration: underline;
 }
